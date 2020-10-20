@@ -1,12 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-// You need to import your shared header...
+import Header from '../shared/Header';
 
 const Home = () => {
   return (
     <>
-      {/* You need to use your shared header component... */}
-      {/* You need a link to your about page as a call to action */}
+      <Header title="Home"/>
+      <button>
+        <Link to="/about">About</Link>
+      </button>
     </>
   );
 }

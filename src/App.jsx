@@ -6,7 +6,6 @@ import Nav from './components/Nav';
 const App = () => {
   return (
     <Nav/>
-    
   );
 }
  
